@@ -21,6 +21,15 @@ namespace SplitAndMerge
             InitializeComponent();
             fileSizeRadioButton.Checked = true;
             currentActionProgressBar.Maximum = PROGRESS_MAX;
+            if (!File.Exists(ffmpegPath))
+            {
+                MessageBox.Show($"FFMPEG.EXE not detected. Please put the ffmpeg file in the same folder as the program.", "FFMPEG.EXE missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                _ = Task.Run(async () =>
+                {
+                    await Task.Delay(500);
+                    Invoke(Close);
+                });
+            }
             Reset(null, EventArgs.Empty);
         }
 
