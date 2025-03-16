@@ -237,7 +237,7 @@
             splitTypeLabel.Name = "splitTypeLabel";
             splitTypeLabel.Size = new Size(760, 15);
             splitTypeLabel.TabIndex = 7;
-            splitTypeLabel.Text = "If ticked, the outcome might undershoot the target by as much as 10%";
+            splitTypeLabel.Text = "If ticked, the outcome might undershoot the target by as much as 10%, resulting in lower quality.";
             splitTypeLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // MainForm
