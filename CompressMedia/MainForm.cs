@@ -23,7 +23,7 @@ namespace SplitAndMerge
             currentActionProgressBar.Maximum = PROGRESS_MAX;
             if (!File.Exists(ffmpegPath))
             {
-                MessageBox.Show($"FFMPEG.EXE not detected. Please put the ffmpeg file in the same folder as the program.", "FFMPEG.EXE missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show($"FFMPEG.EXE not detected. Please put the ffmpeg file in the same folder as the program.", "FFMPEG.EXE missing", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 _ = Task.Run(async () =>
                 {
                     await Task.Delay(500);
