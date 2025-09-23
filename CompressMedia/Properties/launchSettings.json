@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CompressMedia (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CompressMedia (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
