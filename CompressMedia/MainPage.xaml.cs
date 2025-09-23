@@ -96,15 +96,6 @@ namespace CompressMedia
             {
                 Console.WriteLine($"Path of output file is {outputFile}");
             }
-
-            await Task.Delay(100);
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Videos\Video Splitter 2025-09-12 19-45-40_SplitVideos\Video Splitter 2025-09-12 19-45-40000_TOURED_12fps.gif");
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Videos\NVIDIA\The Last of Us™ Part II Remastered\The Last of Us™ Part II Remastered 2025.09.15 - 23.49.34.23.DVR_SplitVideos\The Last of Us™ Part II Remastered 2025.09.15 - 23.49.34.23.DVR000.mp4");
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Videos\NVIDIA\The Last of Us™ Part II Remastered\My gameplay recording.mp4");
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Videos\NVIDIA\Indika-Win64-Shipping\Indika-Win64-Shipping 2025.05.08 - 12.19.08.15.DVR.mp4");
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Pictures\2592x1944.jpeg");
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Pictures\frame00014903.png");
-            //GoToCompress(@"C:\Users\Peter Egunjobi\Downloads\Music\yt5s.io - [ANIMEOMO] Nier Automata - Birth of a Wish (All versions continuously) (Edited) - EPIC SOUNDTRACK (128 kbps).mp3");
         }
     }
 }
