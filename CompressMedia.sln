@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressMedia", "CompressMedia\CompressMedia.csproj", "{A6DD475B-7237-4D4F-861D-E8DA90218BDC}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CompressMediaPage", "CompressMediaPage\CompressMediaPage.shproj", "{40B273DF-70A4-4FD2-9E2C-098067D39FBB}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CompressMediaPage", "CompressMediaPageWinUI\CompressMediaPage.shproj", "{40B273DF-70A4-4FD2-9E2C-098067D39FBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,7 +43,7 @@ Global
 		SolutionGuid = {CAB3543E-E59D-4E15-91D5-12F227BDC510}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		CompressMediaPage\CompressMediaPage.projitems*{40b273df-70a4-4fd2-9e2c-098067d39fbb}*SharedItemsImports = 13
+		CompressMediaPageWinUI\CompressMediaPage.projitems*{40b273df-70a4-4fd2-9e2c-098067d39fbb}*SharedItemsImports = 13
 		CompressMediaPageWinUI\CompressMediaPage.projitems*{a6dd475b-7237-4d4f-861d-e8da90218bdc}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
