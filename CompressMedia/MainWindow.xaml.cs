@@ -29,8 +29,9 @@ namespace CompressMedia
         {
             InitializeComponent();
             AppWindow.Resize(new SizeInt32(700, AppWindow.Size.Height));
-            AppWindow.SetTitleBarIcon("Assets/EncircledPIERound.ico");
-            WindowFrame.Navigate(typeof(MainPage));
+            ExtendsContentIntoTitleBar = true;
+            SetTitleBar(WindowRoot.TitleBar);
+            WindowRoot.Frame.Navigate(typeof(MainPage), WindowRoot.TitleBar);
         }
     }
 }
