@@ -1,7 +1,7 @@
 # Compress Media
 This repo provides a GUI for compressing media files of various types, while minimizing the loss to quality. Only supports Windows 10 and 11 (not tested on other versions of Windows). Powered by FFMPEG.
 
-<img width="686" height="1017" alt="Screenshot (277)" src="https://github.com/user-attachments/assets/002653fe-7bbd-432c-b69f-8685a761f861" />
+<p align="center"><img width="686" height="1016" alt="image" src="https://github.com/user-attachments/assets/2dd8aa26-7bb8-4536-aaa1-92988b1bcdfb" /></p>
 
 ## How to build
 You need to have at least .NET 9 runtime installed to build the software. Download the latest runtime [here](https://dotnet.microsoft.com/en-us/download). If you're not sure which one to download, try [.NET 9.0 Version 9.0.203](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-9.0.203-windows-x64-installer)
